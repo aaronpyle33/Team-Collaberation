@@ -29,7 +29,7 @@
   --ocean-green: hsl(152, 51%, 52%);
   --davys-gray: hsl(0, 0%, 33%);
   --cultured: hsl(0, 0%, 93%);
-  --white: hsl(0, 100%, 100%);
+  --white: hsl(0, 0%, 100%);
   --onyx: hsl(0, 0%, 27%);
 
   /**
@@ -88,7 +88,7 @@ a { text-decoration: none; }
 li { list-style: none; }
 
 button {
-  background: none;
+  background: var(none);
   font: inherit;
   border: none;
   cursor: pointer;
@@ -130,7 +130,7 @@ body::-webkit-scrollbar-thumb {
   border-radius: 10px;
 }
 
-body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
+body::-webkit-scrollbar-thumb:hover { background: hsla(0, 0%, 70%, 0.813); }
 
 
 
@@ -434,7 +434,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 .header-main {
   padding: 20px 0;
-  border-bottom: 1px solid var(--cultured);
+  border-bottom: 1px solid var(--cultured                                                                                                                                                                                                                                                                                         );
 }
 
 .header-logo { margin-bottom: 20px; }
@@ -1415,7 +1415,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 }
 
 .cta-content {
-  background: hsla(0, 0%, 100%, 0.7);
+  background: hsla(0, 0%, 100%, 0.753);
   position: absolute;
   top: 50%;
   left: 50%;
